@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #111827;
+}
+body[data-color-mode='dark'] {
+  color-scheme: dark;
+  background-color: #050505;
+  color: #f8fafc;
+}
+body[data-color-mode='dark'] .bg-white {
+  background-color: #111827 !important;
+}
+body[data-color-mode='dark'] .bg-white\/90 {
+  background-color: rgba(255,255,255,.08) !important;
+}
+body[data-color-mode='dark'] .bg-white\/60 {
+  background-color: rgba(255,255,255,.14) !important;
+}
+body[data-color-mode='dark'] .bg-white\/50 {
+  background-color: rgba(255,255,255,.12) !important;
+}
+body[data-color-mode='dark'] .bg-white\/30 {
+  background-color: rgba(255,255,255,.08) !important;
+}
+body[data-color-mode='dark'] .bg-gray-50 {
+  background-color: #111827 !important;
+}
+body[data-color-mode='dark'] .bg-gray-100 {
+  background-color: #161b22 !important;
+}
+body[data-color-mode='dark'] .border-gray-100 {
+  border-color: rgba(148,163,184,.18) !important;
+}
+body[data-color-mode='dark'] .border-gray-200 {
+  border-color: rgba(148,163,184,.24) !important;
+}
+body[data-color-mode='dark'] .border-gray-300 {
+  border-color: rgba(148,163,184,.3) !important;
+}
+body[data-color-mode='dark'] .text-gray-900,
+body[data-color-mode='dark'] .text-gray-800,
+body[data-color-mode='dark'] .text-gray-700,
+body[data-color-mode='dark'] .text-gray-600,
+body[data-color-mode='dark'] .text-gray-500,
+body[data-color-mode='dark'] .text-gray-400,
+body[data-color-mode='dark'] .text-slate-900,
+body[data-color-mode='dark'] .text-slate-800,
+body[data-color-mode='dark'] .text-slate-700,
+body[data-color-mode='dark'] .text-slate-600,
+body[data-color-mode='dark'] .text-slate-500,
+body[data-color-mode='dark'] .text-slate-400,
+body[data-color-mode='dark'] .text-black {
+  color: #e5e7eb !important;
+}
+
+.min-h-screen.w-full.relative > .absolute.inset-0.bg-gradient-to-br,
+.min-h-screen.w-full.relative > .absolute.inset-0.bg-gradient-to-tr,
+.min-h-screen.w-full.relative > .absolute.inset-0.backdrop-blur-\[2px\] {
+  display: none !important;
+}
+
+body[data-color-mode='light'] .text-white\/95,
+body[data-color-mode='light'] .text-white\/90 {
+  color: #111827 !important;
+}
+
+body[data-color-mode='light'] .bg-white\/30 {
+  background-color: rgba(243,244,246,.75) !important;
+}
+
+body[data-color-mode='light'] .bg-white\/20 {
+  background-color: rgba(243,244,246,.6) !important;
+}
+
+body[data-color-mode='light'] .border-white\/60 {
+  border-color: rgba(209,213,219,.65) !important;
+}
+
+body[data-color-mode='light'] .border-white\/30 {
+  border-color: rgba(209,213,219,.45) !important;
+}
